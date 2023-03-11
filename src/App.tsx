@@ -1,9 +1,11 @@
 import React from 'react';
+import UserList from "./components/UserList";
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <h1>Redux project</h1>
+      <UserList />
     </div>
   );
 }
